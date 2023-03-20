@@ -18,11 +18,11 @@ document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 
 if (randomNumber1 > randomNumber2) {
-  console.log('1');
+//   console.log('1');
   document.querySelector("h1").innerHTML=" 🚩player 1 Wins";
 }
 else if (randomNumber2 > randomNumber1) {
-  console.log('2');
+//   console.log('2');
   document.querySelector("h1").innerHTML="Player 2 wins 🚩";
 }
 else {
